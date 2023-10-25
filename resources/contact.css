@@ -55,6 +55,36 @@ li a {
     width: 49%;
     height: 100%;
     float: right;
-    
+    padding-left: 5%;
     margin-top: 5%
+}
+
+#methods h2 {
+    margin-left: 20rem;
+}
+
+#methods h3 {
+    margin-left: 21rem;
+}
+
+.contact-button {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #AD3328;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #87FFBD;
+}
+
+a:hover {
+    color: blue;
 }
