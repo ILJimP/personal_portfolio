@@ -9,7 +9,7 @@ body {
     background-color: white;
 }
 
-#myname {
+#about_me {
     display: block;
     float: left;
     margin: 5px;
@@ -39,12 +39,31 @@ li a {
     font-size: 20px;
 }
 
-#mainimage {
+#container {
     height: auto;
-    width:100%;
+    width: 100%;
+    
 }
 
-h2 {
-    margin-top: 20px;
-    padding-top: 2px;
+#pic {
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+#story {
+    width: 49%;
+    height: 100%;
+    float: right;
+    border: 2px solid black;
+    margin-top: 10%;
+}
+
+p {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#story h1 {
+    padding-left: 1rem;
 }
